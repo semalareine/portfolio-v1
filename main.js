@@ -107,7 +107,7 @@
 
                     ctx.fillStyle = '#ffffff';
                     ctx.font = 'bold 44px "Space Grotesk", Arial, sans-serif';
-                    ctx.fillText('2025', 512, 670);
+                    ctx.fillText('2026', 512, 670);
 
                     drawStar(ctx, 512, 870, 5, 20, 10);
                 } else {
@@ -122,7 +122,7 @@
                     ctx.font = 'bold 26px "Space Grotesk", Arial, sans-serif';
                     ctx.fillStyle = '#ffffff';
                     ctx.fillText('DEN HAAG • NEDERLAND', 512, 370);
-                    ctx.fillText('PORTFOLIO 2025', 512, 640);
+                    ctx.fillText('PORTFOLIO 2026', 512, 640);
 
                     for (let i = 0; i < 8; i++) {
                         const angle = (i / 8) * Math.PI * 2 - Math.PI / 2;
