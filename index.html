@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@5.1.0/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-logo">AN</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <div class="content-wrapper">
+
+        <section id="hero">
+            <canvas id="coin-canvas"></canvas>
+            <p class="coin-hint">↔ Drag to rotate</p>
+            <div class="hero-title">
+                <h1>
+                    <span class="name-line">Alexandro</span>
+                    <span class="name-line">Nasrolahi</span>
+                </h1>
+                <p class="hero-subtitle">Fullstack Developer</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="arrow"></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header fade-in">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder">
+                            <img src="https://media.discordapp.net/attachments/1005929104136212591/1506825957330387005/MedalTVelectron20260521024845499-trim-17793245873031-ezgif.com-video-to-gif-converter.gif?ex=6a159b47&is=6a1449c7&hm=d4c795015518fbc3fb1abb94711f61882a27e3c30d51e5179b56533c1742c70d&=" alt="Project Image">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>The Batcomputer (W.I.P.)</h3>
+                        <p>For moviemaker me and my team decided to create a custom-built computer for my Batman-themed movie project. It has a built-in browser, map, terminal and many more features. Check out the repo for a full overview.</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>Electron</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder">
+                            <img src="c67f846f-1d08-47de-a237-2e37e1e7c4da (1).png">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CSGO ESP</h3>
+                        <p>Straightforward implementation of an ESP (Entity State Prediction) system for CSGO. Made with Node.js and JavaScript. Offsets might be outdated now. Check my youtube for the vistual studio version (requires C#). </p>
+                        <div class="project-tech">
+                            <span>Node</span>
+                            <span>JavaScript</span>
+                            <span>Visual Studio</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder">
+                            <img src="https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blteec179d006096c80/638810adf9f61910b4235893/widowmaker-01.jpg">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Whole New World</h3>
+                        <p>A dungeon clearing game built with Unity and C++. Me and my friends made this for the Make-A-Thon competition. :D </p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>Blender</span>
+                            <span>Unity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder">
+                         <img src="digicamfx-original-2026-05-25T21-18-55.jpg">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Flame Chomper V1</h3>
+                        <p>I built a cosplay prop based off Jinx from the popular game League of Legends / the animated series "Arcane". It has moveable jaws, vibrates and has sound effects. The build is fully customisable and built from 3D printed parts along with magnets.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>ESP32</span>
+                            <span>Arduino IDE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <div class="diamond"></div>
+        </div>
+
+        <section id="skills">
+            <div class="section-header fade-in">
+                <h2>Programmeer Kennis</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skills-column">
+                    <div class="skill-card fade-in">
+                        <h4>Data Engineering</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Prolog</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Lean</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Rust</span>
+                        </div>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h4>Software Development</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JS/TypeScript</span>
+                            <span class="skill-tag">QT</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">QML</span>
+                        </div>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h4>Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">CMake</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">VSCode</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Ghidra</span>
+                            <span class="skill-tag">Kali</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <div class="skill-card fade-in">
+                        <h4>3D Modelling</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Blender</span>
+                            <span class="skill-tag">DaVinci Resolve</span>
+                            <span class="skill-tag">Zbrush</span>
+                            <span class="skill-tag">Unreal Engine</span>
+                            <span class="skill-tag">Houdini</span>
+                            <span class="skill-tag">Animeren</span>
+                        </div>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h4>Karakteregenschappen</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Openminded</span>
+                            <span class="skill-tag">Leergierig</span>
+                            <span class="skill-tag">Collected</span>
+                            <span class="skill-tag">Gemotiveerd</span>
+                            <span class="skill-tag">Handig</span>
+                            <span class="skill-tag">Associatief Denkend</span>
+                            <span class="skill-tag">Gestructureerd</span>
+                            <span class="skill-tag">Rationeel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <div class="diamond"></div>
+        </div>
+
+        <section id="education">
+            <div class="section-header fade-in">
+                <h2>Educatie</h2>
+            </div>
+            <div class="education-timeline">
+                <div class="edu-item fade-in">
+                    <p class="edu-year">2020 – 2024</p>
+                    <h4>'s Gravendreef College</h4>
+                    <p>MAVO</p>
+                </div>
+                <div class="edu-item fade-in">
+                    <p class="edu-year">2024 – 2025</p>
+                    <h4>ROCMondriaan</h4>
+                    <p>MBO Software Development</p>
+                </div>
+                <div class="edu-item fade-in">
+                    <p class="edu-year">2025 – 2026 (Heden)</p>
+                    <h4>Grafisch Lyceum Rotterdam</h4>
+                    <p>MBO Software Development</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages">
+            <div class="section-header fade-in">
+                <h2>Talen</h2>
+            </div>
+            <div class="languages-grid">
+                <div class="lang-card fade-in">
+                    <h4>Nederlands</h4>
+                    <p class="lang-level">Moedertaal</p>
+                </div>
+                <div class="lang-card fade-in">
+                    <h4>Engels</h4>
+                    <p class="lang-level">Vloeiend</p>
+                </div>
+                <div class="lang-card fade-in">
+                    <h4>Frans</h4>
+                    <p class="lang-level">Moedertaal</p>
+                </div>
+                <div class="lang-card fade-in">
+                    <h4>Duits</h4>
+                    <p class="lang-level">Moedertaal</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests">
+            <div class="section-header fade-in">
+                <h2>Interesses</h2>
+            </div>
+            <div class="interests-grid fade-in">
+                <span class="interest-pill">Micro Controllers</span>
+                <span class="interest-pill">Modding</span>
+                <span class="interest-pill">Fiverr</span>
+                <span class="interest-pill">Live Coding</span>
+                <span class="interest-pill">Cybersecurity</span>
+                <span class="interest-pill">Reverse Engineering</span>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-header fade-in">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card fade-in">
+                    <div class="icon">📱</div>
+                    <h4>Telefoon</h4>
+                    <a href="tel:+31683916252">+31 6 83916252</a>
+                </div>
+                <div class="contact-card fade-in">
+                    <div class="icon">🏫</div>
+                    <h4>School</h4>
+                    <a href="mailto:103825@glr.nl">103825@glr.nl</a>
+                </div>
+                <div class="contact-card fade-in">
+                    <div class="icon">✉️</div>
+                    <h4>Privé</h4>
+                    <a href="mailto:vanhelithalex@gmail.com">vanhelithalex@gmail.com</a>
+                </div>
+                <div class="contact-card fade-in">
+                    <div class="icon">📍</div>
+                    <h4>Locatie</h4>
+                    <p>Den Haag, Nederland</p>
+                </div>
+            </div>
+
+            <a href="https://github.com/semalareine" target="_blank" rel="noopener noreferrer" class="github-link fade-in">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                @semalareine op github
+            </a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Alexandro Nasrolahi ;) </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+```
